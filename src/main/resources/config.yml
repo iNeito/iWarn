@@ -1,0 +1,30 @@
+###################################################################
+# iWarn Spigot Plugin 1.8 - 1.16
+# Created by iNeito
+# Hosted at www.github.com/ineito/iwarn
+###################################################################
+# General Config
+###################################################################
+# 0 = disable, 1 = anyone with iwarn.admin, 2 = all
+WarnGlobalMessageReceiver: 1
+# %admin% gets replaced with admin who warned them
+# %target% gets replaced with player that was warned
+# %reason% gets replaced with the type of warn it was. ie: Spam
+WarnGlobalMessage: "%admin% warned %target% for %reason%"
+WarnTargetMessage: "%admin% warned you for %reason%"
+WarnAdminMessage: "You warned %target% for %reason%"
+###################################################################
+# Warn Categories
+# *WARNING* Removing a Category that has been used will remove
+# all warnings using that category from users
+###################################################################
+WarnCategories:
+#  Spam:
+#    Reason: Spamming in chat
+#    Punishments:
+#      3:
+#        Command: 'msg %player% 3 warnings for spam'
+#      6:
+#        Command: 'msg %player% 6 warnings for spam'
+#      9:
+#        Command: 'msg %player% 9 warnings for spam'

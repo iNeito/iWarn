@@ -1,0 +1,26 @@
+name: iWarn
+version: ${project.version}
+main: me.ineito.iwarn.Main
+load: POSTWORLD
+commands:
+  # Warn Commands
+  warn:
+    usage: /iwarn help
+  warns:
+    usage: /iwarn help
+  iwarn:
+    usage: /iwarn help
+
+permissions:
+  iwarn.give:
+    default: op
+  iwarn.remove:
+    default: op
+  iwarn.view.other:
+    default: op
+  iwarn.view.self:
+    default: true
+  iwarn.bypass:
+    default: op
+  iwarn.admin:
+    default: op
